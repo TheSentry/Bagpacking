@@ -1,0 +1,32 @@
+[gd_scene load_steps=3 format=3 uid="uid://dnqo3n33gy8jy"]
+
+[ext_resource type="Script" uid="uid://cccxa4i4cx5fj" path="res://main_menu/main_menu.gd" id="1_d3a7t"]
+[ext_resource type="Texture2D" uid="uid://di5dk1pxl7ul2" path="res://assets/360_F_65482539_C0ZozE5gUjCafz7Xq98WB4dW6LAhqKfs.jpg" id="1_oa53l"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_d3a7t")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="Sprite2D" type="Sprite2D" parent="CanvasLayer"]
+position = Vector2(576.75, 324)
+scale = Vector2(1.86187, 1.8)
+texture = ExtResource("1_oa53l")
+
+[node name="start_button" type="Button" parent="CanvasLayer/Sprite2D"]
+offset_left = -58.0
+offset_top = -6.0
+offset_right = 55.0
+offset_bottom = 35.0
+focus_neighbor_bottom = NodePath("../exit_button")
+text = "Start"
+
+[node name="exit_button" type="Button" parent="CanvasLayer/Sprite2D"]
+offset_left = -58.0
+offset_top = 55.0
+offset_right = 55.0
+offset_bottom = 96.0
+focus_neighbor_top = NodePath("../start_button")
+text = "Exit"
+
+[connection signal="pressed" from="CanvasLayer/Sprite2D/exit_button" to="." method="_on_exit_button_pressed"]
