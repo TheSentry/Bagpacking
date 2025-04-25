@@ -24,6 +24,10 @@ layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
+offset_left = -13.0
+offset_top = -35.0
+offset_right = -13.0
+offset_bottom = -35.0
 grow_horizontal = 2
 grow_vertical = 2
 
@@ -44,6 +48,8 @@ layout_mode = 2
 focus_neighbor_top = NodePath("../start_button")
 focus_neighbor_bottom = NodePath("../start_button")
 text = "Exit"
+
+[node name="Baum" type="Node2D" parent="."]
 
 [connection signal="focus_entered" from="CenterContainer/VBoxContainer/start_button" to="." method="_on_start_button_focus_entered"]
 [connection signal="pressed" from="CenterContainer/VBoxContainer/exit_button" to="." method="_on_exit_button_pressed"]
