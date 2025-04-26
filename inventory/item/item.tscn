@@ -3,7 +3,7 @@
 [ext_resource type="Script" uid="uid://bp4bx0k8ibgkn" path="res://inventory/item/item.gd" id="1_w5dh2"]
 [ext_resource type="Texture2D" uid="uid://dbben4g8grgjy" path="res://icon.svg" id="2_jnffy"]
 
-[node name="Item" type="Control"]
+[node name="Item" type="Control" groups=["items"]]
 layout_mode = 3
 anchors_preset = 0
 script = ExtResource("1_w5dh2")

@@ -8,6 +8,8 @@ var item_shape: Array
 var item_size: Vector2i
 var item_icon: Texture
 
+var pos_on_grid: Vector2i
+
 @onready var icon_texture_rect: TextureRect = $TextureRect
 
 func _ready() -> void:

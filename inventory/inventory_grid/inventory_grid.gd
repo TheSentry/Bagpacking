@@ -15,7 +15,7 @@ var separation: int
 
 func _ready() -> void:
 	build_grid()
-	place_Item(5,5,preload("res://inventory/item/items/test_Item.tres"))
+	place_Item(Vector2i(5,5),preload("res://inventory/item/items/test_Item.tres"))
 	
 func _draw() -> void:
 	pass
@@ -46,15 +46,13 @@ func _on_node_resized():
 		
 		for slot in get_tree().get_nodes_in_group("inventory_slot"):
 			slot.set_tile_size(tile_size)
-			
-func place_Item(row: int, col: int, item_data: ItemData) -> void:
+		
+		for item_instance in get_tree().get_nodes_in_group("items"):
+			item_instance.size= Vector2i((tile_size+separation)*item_instance.item_size.x+separation,(tile_size+separation)*item_instance.item_size.y+separation)
+			item_instance.position = Vector2((item_instance.pos_on_grid.x-1) * (tile_size + separation),(item_instance.pos_on_grid.y-1) * (tile_size + separation))
+func place_Item(pos:Vector2i, item_data: ItemData) -> void:
 	var item_instance: Item = item_scene.instantiate()
 	item_instance.item_data = item_data
+	item_instance.pos_on_grid = pos
 	items.add_child(item_instance)
 	
-	item_instance.size= Vector2i((tile_size+separation)*item_instance.item_size.x+separation,(tile_size+separation)*item_instance.item_size.y+separation)
-	item_instance.position = Vector2((col-1) * (tile_size + separation),(row-1) * (tile_size + separation))
-
-
-func snap_item_to_Grid()-> void:
-	pass
