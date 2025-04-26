@@ -6,6 +6,6 @@
 [resource]
 script = ExtResource("1_rtcjq")
 name = "TestItem"
-shape = "2x2"
+shape = "T"
 icon = ExtResource("1_35nrq")
 metadata/_custom_type_script = "uid://821g00we0h08"

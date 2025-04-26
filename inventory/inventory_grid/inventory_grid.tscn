@@ -4,7 +4,7 @@
 [ext_resource type="PackedScene" uid="uid://bokjy0e44vjpj" path="res://inventory/inventory_slot/inventory_slot.tscn" id="2_teo60"]
 [ext_resource type="PackedScene" uid="uid://bhep672i0vcuo" path="res://inventory/item/item.tscn" id="3_elfpj"]
 
-[node name="InventoryGrid" type="Control"]
+[node name="InventoryGrid" type="Control" groups=["inventory"]]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0

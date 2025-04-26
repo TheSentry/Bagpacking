@@ -1,4 +1,5 @@
 extends Control
+class_name inventory
 
 @export var columns: int = 10
 @export var rows: int = 5
@@ -50,9 +51,14 @@ func _on_node_resized():
 		for item_instance in get_tree().get_nodes_in_group("items"):
 			item_instance.size= Vector2i((tile_size+separation)*item_instance.item_size.x+separation,(tile_size+separation)*item_instance.item_size.y+separation)
 			item_instance.position = Vector2((item_instance.pos_on_grid.x-1) * (tile_size + separation),(item_instance.pos_on_grid.y-1) * (tile_size + separation))
+
+
+#only for debugging 
 func place_Item(pos:Vector2i, item_data: ItemData) -> void:
 	var item_instance: Item = item_scene.instantiate()
 	item_instance.item_data = item_data
 	item_instance.pos_on_grid = pos
 	items.add_child(item_instance)
+	_on_node_resized()
+	
 	
