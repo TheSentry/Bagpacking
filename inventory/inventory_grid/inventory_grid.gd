@@ -31,11 +31,13 @@ func _on_node_resized():
 		
 		
 		var tile_size = int(min(size.x / columns,size.y / rows))
+		margin_container.size = Vector2(tile_size*(columns),tile_size*(rows))
+		
 		var seperation = int(max(1,tile_size*0.1))
 		tile_size = tile_size-seperation
 		
 		slots.add_theme_constant_override("h_separation", seperation)
 		slots.add_theme_constant_override("v_separation", seperation)
-		margin_container.size = Vector2(tile_size*(columns+1),tile_size*(rows+1))
+		
 		for slot in get_tree().get_nodes_in_group("inventory_slot"):
 			slot.set_tile_size(tile_size)
