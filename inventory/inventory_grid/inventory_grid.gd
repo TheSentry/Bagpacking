@@ -52,14 +52,9 @@ func place_Item(row: int, col: int, item_data: ItemData) -> void:
 	item_instance.item_data = item_data
 	items.add_child(item_instance)
 	
-	item_instance.size= Vector2i(tile_size+separation*2,tile_size+separation*2)
-	print(item_instance.size)
+	item_instance.size= Vector2i((tile_size+separation)*item_instance.item_size.x+separation,(tile_size+separation)*item_instance.item_size.y+separation)
 	item_instance.position = Vector2((col-1) * (tile_size + separation),(row-1) * (tile_size + separation))
-	print(item_instance.position)
-	
-	pass
-	
-	
-	
+
+
 func snap_item_to_Grid()-> void:
 	pass
