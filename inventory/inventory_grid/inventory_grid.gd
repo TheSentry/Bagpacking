@@ -11,10 +11,11 @@ extends Control
 @onready var items: Control = $MarginContainer/Items
 
 var tile_size: int
-var seperation: int
+var separation: int
 
 func _ready() -> void:
 	build_grid()
+	place_Item(5,5,preload("res://inventory/item/items/test_Item.tres"))
 	
 func _draw() -> void:
 	pass
@@ -37,16 +38,25 @@ func _on_node_resized():
 		tile_size = int(min(size.x / columns,size.y / rows))
 		margin_container.size = Vector2(tile_size*(columns),tile_size*(rows))
 		
-		seperation = int(max(1,tile_size*0.1))
-		tile_size = tile_size-seperation
+		separation = int(max(1,tile_size*0.1))
+		tile_size = tile_size-separation
 		
-		slots.add_theme_constant_override("h_separation", seperation)
-		slots.add_theme_constant_override("v_separation", seperation)
+		slots.add_theme_constant_override("h_separation", separation)
+		slots.add_theme_constant_override("v_separation", separation)
 		
 		for slot in get_tree().get_nodes_in_group("inventory_slot"):
 			slot.set_tile_size(tile_size)
 			
 func place_Item(row: int, col: int, item_data: ItemData) -> void:
+	var item_instance: Item = item_scene.instantiate()
+	item_instance.item_data = item_data
+	items.add_child(item_instance)
+	
+	item_instance.size= Vector2i(tile_size+separation*2,tile_size+separation*2)
+	print(item_instance.size)
+	item_instance.position = Vector2((col-1) * (tile_size + separation),(row-1) * (tile_size + separation))
+	print(item_instance.position)
+	
 	pass
 	
 	
