@@ -29,7 +29,6 @@ func _notification(what):
 func _on_node_resized():
 	if margin_container != null:
 		
-		
 		var tile_size = int(min(size.x / columns,size.y / rows))
 		margin_container.size = Vector2(tile_size*(columns),tile_size*(rows))
 		
