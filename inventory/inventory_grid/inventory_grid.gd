@@ -3,10 +3,15 @@ extends Control
 @export var columns: int = 10
 @export var rows: int = 5
 
-@export var slot_scence: PackedScene
+@export var slot_scene: PackedScene
+@export var item_scene: PackedScene
 
 @onready var slots: GridContainer = $MarginContainer/Slots
 @onready var margin_container: MarginContainer = $MarginContainer
+@onready var items: Control = $MarginContainer/Items
+
+var tile_size: int
+var seperation: int
 
 func _ready() -> void:
 	build_grid()
@@ -17,7 +22,7 @@ func _draw() -> void:
 func build_grid() -> void:
 	slots.columns = columns
 	for i in range(columns*rows):
-		var slot_instance = slot_scence.instantiate()
+		var slot_instance = slot_scene.instantiate()
 		slots.add_child(slot_instance)
 	
 	_on_node_resized()
@@ -29,10 +34,10 @@ func _notification(what):
 func _on_node_resized():
 	if margin_container != null:
 		
-		var tile_size = int(min(size.x / columns,size.y / rows))
+		tile_size = int(min(size.x / columns,size.y / rows))
 		margin_container.size = Vector2(tile_size*(columns),tile_size*(rows))
 		
-		var seperation = int(max(1,tile_size*0.1))
+		seperation = int(max(1,tile_size*0.1))
 		tile_size = tile_size-seperation
 		
 		slots.add_theme_constant_override("h_separation", seperation)
@@ -40,3 +45,11 @@ func _on_node_resized():
 		
 		for slot in get_tree().get_nodes_in_group("inventory_slot"):
 			slot.set_tile_size(tile_size)
+			
+func place_Item(row: int, col: int, item_data: ItemData) -> void:
+	pass
+	
+	
+	
+func snap_item_to_Grid()-> void:
+	pass

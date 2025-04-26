@@ -1,7 +1,8 @@
-[gd_scene load_steps=3 format=3 uid="uid://vpfu76nt7ge6"]
+[gd_scene load_steps=4 format=3 uid="uid://vpfu76nt7ge6"]
 
 [ext_resource type="Script" uid="uid://b8vmkttbvqbqe" path="res://inventory/inventory_grid/inventory_grid.gd" id="1_8kcdc"]
 [ext_resource type="PackedScene" uid="uid://bokjy0e44vjpj" path="res://inventory/inventory_slot/inventory_slot.tscn" id="2_teo60"]
+[ext_resource type="PackedScene" uid="uid://bhep672i0vcuo" path="res://inventory/item/item.tscn" id="3_elfpj"]
 
 [node name="InventoryGrid" type="Control"]
 layout_mode = 3
@@ -13,7 +14,8 @@ grow_vertical = 2
 script = ExtResource("1_8kcdc")
 columns = 30
 rows = 20
-slot_scence = ExtResource("2_teo60")
+slot_scene = ExtResource("2_teo60")
+item_scene = ExtResource("3_elfpj")
 
 [node name="MarginContainer" type="MarginContainer" parent="."]
 layout_mode = 1
