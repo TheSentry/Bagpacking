@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://dnqo3n33gy8jy"]
 
 [ext_resource type="Script" uid="uid://cccxa4i4cx5fj" path="res://main_menu/main_menu.gd" id="1_d3a7t"]
-[ext_resource type="Texture2D" uid="uid://dd5scqn8nx6mc" path="res://assets/travel-hd-axhrsecphqby11wk.jpg" id="1_oa53l"]
+[ext_resource type="Texture2D" uid="uid://b0f0i3weo3ch4" path="res://assets/papers.co-od09-nature-travel-kit-36-3840x2400-4k-wallpaper.jpg" id="2_d3a7t"]
 
 [node name="Node2D" type="Control"]
 layout_mode = 3
@@ -17,7 +17,8 @@ layout_mode = 0
 offset_right = 1920.0
 offset_bottom = 1080.0
 size_flags_vertical = 3
-texture = ExtResource("1_oa53l")
+texture = ExtResource("2_d3a7t")
+stretch_mode = 6
 
 [node name="CenterContainer" type="CenterContainer" parent="."]
 layout_mode = 1
