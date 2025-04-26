@@ -31,6 +31,5 @@ func _on_node_resized():
 	if margin_container != null:
 		var tile_size = min(size.x / columns,size.y / rows)
 		margin_container.size = Vector2(tile_size*columns,tile_size*rows)
-		print(margin_container.size,size)
 		for slot in get_tree().get_nodes_in_group("inventory_slot"):
 			slot.set_tile_size(tile_size)
