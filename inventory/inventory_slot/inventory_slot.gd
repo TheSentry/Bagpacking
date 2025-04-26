@@ -1,8 +1,6 @@
 extends Control
 
-var occupying  #items
+var occupying: Item
 
-@export var tile_size : int = 64
-
-func _ready() -> void:
+func set_tile_size(tile_size:int) -> void:
 	size = Vector2i(tile_size,tile_size)
