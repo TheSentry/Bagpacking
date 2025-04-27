@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://c4be01vaqdyd7"]
 
-[ext_resource type="Script" path="res://levels/level.gd" id="1_hjsbj"]
+[ext_resource type="Script" uid="uid://bf82ugl0mc0et" path="res://levels/level.gd" id="1_hjsbj"]
 [ext_resource type="PackedScene" uid="uid://ciby8lgwu8d4n" path="res://addons/apeloot/inventory/grid_inventory/inventory_interface.tscn" id="2_cwqvt"]
 
 [node name="Levels" type="Node2D"]

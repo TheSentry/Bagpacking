@@ -11,11 +11,11 @@ corner_radius_bottom_right = 20
 corner_radius_bottom_left = 20
 
 [node name="GrannyStartScene" type="Node2D"]
-scale = Vector2(0.4, 0.4)
+scale = Vector2(0.5, 0.5)
 script = ExtResource("1_15ojk")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-position = Vector2(1281, 721)
+position = Vector2(1280, 720)
 texture = ExtResource("1_eymcr")
 
 [node name="Label" type="Label" parent="Sprite2D"]
