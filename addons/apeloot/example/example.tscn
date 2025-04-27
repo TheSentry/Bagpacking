@@ -1,9 +1,9 @@
 [gd_scene load_steps=5 format=3 uid="uid://bpay6w53gou13"]
 
 [ext_resource type="PackedScene" uid="uid://ciby8lgwu8d4n" path="res://addons/apeloot/inventory/grid_inventory/inventory_interface.tscn" id="1_bko6p"]
-[ext_resource type="Texture2D" uid="uid://dtww0mvg811mx" path="res://addons/apeloot/image/CharacterBox_56x57.png" id="2_a5wlf"]
-[ext_resource type="Script" path="res://addons/apeloot/example/chest_example.gd" id="3_3xnj6"]
-[ext_resource type="Script" path="res://addons/apeloot/example/trash.gd" id="4_0y0yr"]
+[ext_resource type="Texture2D" uid="uid://cg3uo7l0vnvpa" path="res://addons/apeloot/image/CharacterBox_56x57.png" id="2_a5wlf"]
+[ext_resource type="Script" uid="uid://bg2p65iy05yfb" path="res://addons/apeloot/example/chest_example.gd" id="3_3xnj6"]
+[ext_resource type="Script" uid="uid://cidqep00r11fl" path="res://addons/apeloot/example/trash.gd" id="4_0y0yr"]
 
 [node name="Example" type="Control"]
 layout_mode = 3
@@ -34,6 +34,7 @@ offset_bottom = 31.0
 text = "An example inventory (Click on slots to spawn test items)"
 
 [node name="Label2" type="Label" parent="."]
+layout_mode = 0
 offset_left = 8.0
 offset_top = 253.0
 offset_right = 338.0
@@ -41,6 +42,7 @@ offset_bottom = 276.0
 text = "A single slot inventory (Each slot fits any single item with any pattern)"
 
 [node name="Label3" type="Label" parent="."]
+layout_mode = 0
 offset_left = 732.0
 offset_top = 15.0
 offset_right = 1135.0
@@ -48,6 +50,7 @@ offset_bottom = 38.0
 text = "A pickup only inventory (for chests etc.)"
 
 [node name="Trash" type="Label" parent="."]
+layout_mode = 0
 offset_left = 794.0
 offset_top = 257.0
 offset_right = 842.0
