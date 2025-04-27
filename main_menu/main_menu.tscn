@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://dnqo3n33gy8jy"]
 
 [ext_resource type="Script" uid="uid://cccxa4i4cx5fj" path="res://main_menu/main_menu.gd" id="1_d3a7t"]
-[ext_resource type="Texture2D" uid="uid://b0f0i3weo3ch4" path="res://assets/papers.co-od09-nature-travel-kit-36-3840x2400-4k-wallpaper.jpg" id="2_d3a7t"]
+[ext_resource type="Texture2D" uid="uid://domcbwk2rwy03" path="res://assets/Main_Menu.png" id="2_d3a7t"]
 
 [node name="Node2D" type="Control"]
 layout_mode = 3
@@ -25,10 +25,10 @@ layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_left = -13.0
-offset_top = -35.0
-offset_right = -13.0
-offset_bottom = -35.0
+offset_left = 3.0
+offset_top = 50.0
+offset_right = 3.0
+offset_bottom = 50.0
 grow_horizontal = 2
 grow_vertical = 2
 
