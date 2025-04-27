@@ -14,11 +14,11 @@ script = ExtResource("1_d3a7t")
 
 [node name="Sprite2D" type="TextureRect" parent="."]
 layout_mode = 0
-offset_right = 1920.0
-offset_bottom = 1080.0
+offset_right = 1024.0
+offset_bottom = 600.0
 size_flags_vertical = 3
 texture = ExtResource("2_d3a7t")
-stretch_mode = 6
+expand_mode = 1
 
 [node name="CenterContainer" type="CenterContainer" parent="."]
 layout_mode = 1

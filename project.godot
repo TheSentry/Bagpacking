@@ -21,9 +21,11 @@ Apeloot="*res://addons/apeloot/inventory/Apeloot.gd"
 
 [display]
 
-window/size/viewport_width=2560
-window/size/viewport_height=1440
+window/size/viewport_width=1024
+window/size/viewport_height=600
+window/size/mode=3
 window/stretch/mode="viewport"
+window/stretch/aspect="expand"
 
 [editor_plugins]
 
