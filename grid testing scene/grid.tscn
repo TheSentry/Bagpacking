@@ -1,0 +1,569 @@
+[gd_scene load_steps=2 format=3 uid="uid://0kukaho1ld4c"]
+
+[ext_resource type="Script" uid="uid://cuaulnryyk4l8" path="res://GridGenerator.gd" id="1_tinvs"]
+
+[node name="grid" type="Node2D"]
+script = ExtResource("1_tinvs")
+grid_size_x = 10
+grid_size_y = 8
+
+[node name="Empty_0_0" type="Node2D" parent="."]
+
+[node name="@ColorRect@24592" type="ColorRect" parent="Empty_0_0"]
+custom_minimum_size = Vector2(10, 10)
+color = Color(1, 0, 0, 1)
+
+[node name="Empty_0_1" type="Node2D" parent="."]
+position = Vector2(0, 64)
+
+[node name="@ColorRect@24593" type="ColorRect" parent="Empty_0_1"]
+custom_minimum_size = Vector2(10, 10)
+color = Color(1, 0, 0, 1)
+
+[node name="Empty_0_2" type="Node2D" parent="."]
+position = Vector2(0, 128)
+
+[node name="@ColorRect@24594" type="ColorRect" parent="Empty_0_2"]
+custom_minimum_size = Vector2(10, 10)
+color = Color(1, 0, 0, 1)
+
+[node name="Empty_0_3" type="Node2D" parent="."]
+position = Vector2(0, 192)
+
+[node name="@ColorRect@24595" type="ColorRect" parent="Empty_0_3"]
+custom_minimum_size = Vector2(10, 10)
+color = Color(1, 0, 0, 1)
+
+[node name="Empty_0_4" type="Node2D" parent="."]
+position = Vector2(0, 256)
+
+[node name="@ColorRect@24596" type="ColorRect" parent="Empty_0_4"]
+custom_minimum_size = Vector2(10, 10)
+color = Color(1, 0, 0, 1)
+
+[node name="Empty_0_5" type="Node2D" parent="."]
+position = Vector2(0, 320)
+
+[node name="@ColorRect@24597" type="ColorRect" parent="Empty_0_5"]
+custom_minimum_size = Vector2(10, 10)
+color = Color(1, 0, 0, 1)
+
+[node name="Empty_0_6" type="Node2D" parent="."]
+position = Vector2(0, 384)
+
+[node name="@ColorRect@24598" type="ColorRect" parent="Empty_0_6"]
+custom_minimum_size = Vector2(10, 10)
+color = Color(1, 0, 0, 1)
+
+[node name="Empty_0_7" type="Node2D" parent="."]
+position = Vector2(0, 448)
+
+[node name="@ColorRect@24599" type="ColorRect" parent="Empty_0_7"]
+custom_minimum_size = Vector2(10, 10)
+color = Color(1, 0, 0, 1)
+
+[node name="Empty_1_0" type="Node2D" parent="."]
+position = Vector2(64, 0)
+
+[node name="@ColorRect@24600" type="ColorRect" parent="Empty_1_0"]
+custom_minimum_size = Vector2(10, 10)
+color = Color(1, 0, 0, 1)
+
+[node name="Empty_1_1" type="Node2D" parent="."]
+position = Vector2(64, 64)
+
+[node name="@ColorRect@24601" type="ColorRect" parent="Empty_1_1"]
+custom_minimum_size = Vector2(10, 10)
+color = Color(1, 0, 0, 1)
+
+[node name="Empty_1_2" type="Node2D" parent="."]
+position = Vector2(64, 128)
+
+[node name="@ColorRect@24602" type="ColorRect" parent="Empty_1_2"]
+custom_minimum_size = Vector2(10, 10)
+color = Color(1, 0, 0, 1)
+
+[node name="Empty_1_3" type="Node2D" parent="."]
+position = Vector2(64, 192)
+
+[node name="@ColorRect@24603" type="ColorRect" parent="Empty_1_3"]
+custom_minimum_size = Vector2(10, 10)
+color = Color(1, 0, 0, 1)
+
+[node name="Empty_1_4" type="Node2D" parent="."]
+position = Vector2(64, 256)
+
+[node name="@ColorRect@24604" type="ColorRect" parent="Empty_1_4"]
+custom_minimum_size = Vector2(10, 10)
+color = Color(1, 0, 0, 1)
+
+[node name="Empty_1_5" type="Node2D" parent="."]
+position = Vector2(64, 320)
+
+[node name="@ColorRect@24605" type="ColorRect" parent="Empty_1_5"]
+custom_minimum_size = Vector2(10, 10)
+color = Color(1, 0, 0, 1)
+
+[node name="Empty_1_6" type="Node2D" parent="."]
+position = Vector2(64, 384)
+
+[node name="@ColorRect@24606" type="ColorRect" parent="Empty_1_6"]
+custom_minimum_size = Vector2(10, 10)
+color = Color(1, 0, 0, 1)
+
+[node name="Empty_1_7" type="Node2D" parent="."]
+position = Vector2(64, 448)
+
+[node name="@ColorRect@24607" type="ColorRect" parent="Empty_1_7"]
+custom_minimum_size = Vector2(10, 10)
+color = Color(1, 0, 0, 1)
+
+[node name="Empty_2_0" type="Node2D" parent="."]
+position = Vector2(128, 0)
+
+[node name="@ColorRect@24608" type="ColorRect" parent="Empty_2_0"]
+custom_minimum_size = Vector2(10, 10)
+color = Color(1, 0, 0, 1)
+
+[node name="Empty_2_1" type="Node2D" parent="."]
+position = Vector2(128, 64)
+
+[node name="@ColorRect@24609" type="ColorRect" parent="Empty_2_1"]
+custom_minimum_size = Vector2(10, 10)
+color = Color(1, 0, 0, 1)
+
+[node name="Empty_2_2" type="Node2D" parent="."]
+position = Vector2(128, 128)
+
+[node name="@ColorRect@24610" type="ColorRect" parent="Empty_2_2"]
+custom_minimum_size = Vector2(10, 10)
+color = Color(1, 0, 0, 1)
+
+[node name="Empty_2_3" type="Node2D" parent="."]
+position = Vector2(128, 192)
+
+[node name="@ColorRect@24611" type="ColorRect" parent="Empty_2_3"]
+custom_minimum_size = Vector2(10, 10)
+color = Color(1, 0, 0, 1)
+
+[node name="Empty_2_4" type="Node2D" parent="."]
+position = Vector2(128, 256)
+
+[node name="@ColorRect@24612" type="ColorRect" parent="Empty_2_4"]
+custom_minimum_size = Vector2(10, 10)
+color = Color(1, 0, 0, 1)
+
+[node name="Empty_2_5" type="Node2D" parent="."]
+position = Vector2(128, 320)
+
+[node name="@ColorRect@24613" type="ColorRect" parent="Empty_2_5"]
+custom_minimum_size = Vector2(10, 10)
+color = Color(1, 0, 0, 1)
+
+[node name="Empty_2_6" type="Node2D" parent="."]
+position = Vector2(128, 384)
+
+[node name="@ColorRect@24614" type="ColorRect" parent="Empty_2_6"]
+custom_minimum_size = Vector2(10, 10)
+color = Color(1, 0, 0, 1)
+
+[node name="Empty_2_7" type="Node2D" parent="."]
+position = Vector2(128, 448)
+
+[node name="@ColorRect@24615" type="ColorRect" parent="Empty_2_7"]
+custom_minimum_size = Vector2(10, 10)
+color = Color(1, 0, 0, 1)
+
+[node name="Empty_3_0" type="Node2D" parent="."]
+position = Vector2(192, 0)
+
+[node name="@ColorRect@24616" type="ColorRect" parent="Empty_3_0"]
+custom_minimum_size = Vector2(10, 10)
+color = Color(1, 0, 0, 1)
+
+[node name="Empty_3_1" type="Node2D" parent="."]
+position = Vector2(192, 64)
+
+[node name="@ColorRect@24617" type="ColorRect" parent="Empty_3_1"]
+custom_minimum_size = Vector2(10, 10)
+color = Color(1, 0, 0, 1)
+
+[node name="Empty_3_2" type="Node2D" parent="."]
+position = Vector2(192, 128)
+
+[node name="@ColorRect@24618" type="ColorRect" parent="Empty_3_2"]
+custom_minimum_size = Vector2(10, 10)
+color = Color(1, 0, 0, 1)
+
+[node name="Empty_3_3" type="Node2D" parent="."]
+position = Vector2(192, 192)
+
+[node name="@ColorRect@24619" type="ColorRect" parent="Empty_3_3"]
+custom_minimum_size = Vector2(10, 10)
+color = Color(1, 0, 0, 1)
+
+[node name="Empty_3_4" type="Node2D" parent="."]
+position = Vector2(192, 256)
+
+[node name="@ColorRect@24620" type="ColorRect" parent="Empty_3_4"]
+custom_minimum_size = Vector2(10, 10)
+color = Color(1, 0, 0, 1)
+
+[node name="Empty_3_5" type="Node2D" parent="."]
+position = Vector2(192, 320)
+
+[node name="@ColorRect@24621" type="ColorRect" parent="Empty_3_5"]
+custom_minimum_size = Vector2(10, 10)
+color = Color(1, 0, 0, 1)
+
+[node name="Empty_3_6" type="Node2D" parent="."]
+position = Vector2(192, 384)
+
+[node name="@ColorRect@24622" type="ColorRect" parent="Empty_3_6"]
+custom_minimum_size = Vector2(10, 10)
+color = Color(1, 0, 0, 1)
+
+[node name="Empty_3_7" type="Node2D" parent="."]
+position = Vector2(192, 448)
+
+[node name="@ColorRect@24623" type="ColorRect" parent="Empty_3_7"]
+custom_minimum_size = Vector2(10, 10)
+color = Color(1, 0, 0, 1)
+
+[node name="Empty_4_0" type="Node2D" parent="."]
+position = Vector2(256, 0)
+
+[node name="@ColorRect@24624" type="ColorRect" parent="Empty_4_0"]
+custom_minimum_size = Vector2(10, 10)
+color = Color(1, 0, 0, 1)
+
+[node name="Empty_4_1" type="Node2D" parent="."]
+position = Vector2(256, 64)
+
+[node name="@ColorRect@24625" type="ColorRect" parent="Empty_4_1"]
+custom_minimum_size = Vector2(10, 10)
+color = Color(1, 0, 0, 1)
+
+[node name="Empty_4_2" type="Node2D" parent="."]
+position = Vector2(256, 128)
+
+[node name="@ColorRect@24626" type="ColorRect" parent="Empty_4_2"]
+custom_minimum_size = Vector2(10, 10)
+color = Color(1, 0, 0, 1)
+
+[node name="Empty_4_3" type="Node2D" parent="."]
+position = Vector2(256, 192)
+
+[node name="@ColorRect@24627" type="ColorRect" parent="Empty_4_3"]
+custom_minimum_size = Vector2(10, 10)
+color = Color(1, 0, 0, 1)
+
+[node name="Empty_4_4" type="Node2D" parent="."]
+position = Vector2(256, 256)
+
+[node name="@ColorRect@24628" type="ColorRect" parent="Empty_4_4"]
+custom_minimum_size = Vector2(10, 10)
+color = Color(1, 0, 0, 1)
+
+[node name="Empty_4_5" type="Node2D" parent="."]
+position = Vector2(256, 320)
+
+[node name="@ColorRect@24629" type="ColorRect" parent="Empty_4_5"]
+custom_minimum_size = Vector2(10, 10)
+color = Color(1, 0, 0, 1)
+
+[node name="Empty_4_6" type="Node2D" parent="."]
+position = Vector2(256, 384)
+
+[node name="@ColorRect@24630" type="ColorRect" parent="Empty_4_6"]
+custom_minimum_size = Vector2(10, 10)
+color = Color(1, 0, 0, 1)
+
+[node name="Empty_4_7" type="Node2D" parent="."]
+position = Vector2(256, 448)
+
+[node name="@ColorRect@24631" type="ColorRect" parent="Empty_4_7"]
+custom_minimum_size = Vector2(10, 10)
+color = Color(1, 0, 0, 1)
+
+[node name="Empty_5_0" type="Node2D" parent="."]
+position = Vector2(320, 0)
+
+[node name="@ColorRect@24632" type="ColorRect" parent="Empty_5_0"]
+custom_minimum_size = Vector2(10, 10)
+color = Color(1, 0, 0, 1)
+
+[node name="Empty_5_1" type="Node2D" parent="."]
+position = Vector2(320, 64)
+
+[node name="@ColorRect@24633" type="ColorRect" parent="Empty_5_1"]
+custom_minimum_size = Vector2(10, 10)
+color = Color(1, 0, 0, 1)
+
+[node name="Empty_5_2" type="Node2D" parent="."]
+position = Vector2(320, 128)
+
+[node name="@ColorRect@24634" type="ColorRect" parent="Empty_5_2"]
+custom_minimum_size = Vector2(10, 10)
+color = Color(1, 0, 0, 1)
+
+[node name="Empty_5_3" type="Node2D" parent="."]
+position = Vector2(320, 192)
+
+[node name="@ColorRect@24635" type="ColorRect" parent="Empty_5_3"]
+custom_minimum_size = Vector2(10, 10)
+color = Color(1, 0, 0, 1)
+
+[node name="Empty_5_4" type="Node2D" parent="."]
+position = Vector2(320, 256)
+
+[node name="@ColorRect@24636" type="ColorRect" parent="Empty_5_4"]
+custom_minimum_size = Vector2(10, 10)
+color = Color(1, 0, 0, 1)
+
+[node name="Empty_5_5" type="Node2D" parent="."]
+position = Vector2(320, 320)
+
+[node name="@ColorRect@24637" type="ColorRect" parent="Empty_5_5"]
+custom_minimum_size = Vector2(10, 10)
+color = Color(1, 0, 0, 1)
+
+[node name="Empty_5_6" type="Node2D" parent="."]
+position = Vector2(320, 384)
+
+[node name="@ColorRect@24638" type="ColorRect" parent="Empty_5_6"]
+custom_minimum_size = Vector2(10, 10)
+color = Color(1, 0, 0, 1)
+
+[node name="Empty_5_7" type="Node2D" parent="."]
+position = Vector2(320, 448)
+
+[node name="@ColorRect@24639" type="ColorRect" parent="Empty_5_7"]
+custom_minimum_size = Vector2(10, 10)
+color = Color(1, 0, 0, 1)
+
+[node name="Empty_6_0" type="Node2D" parent="."]
+position = Vector2(384, 0)
+
+[node name="@ColorRect@24640" type="ColorRect" parent="Empty_6_0"]
+custom_minimum_size = Vector2(10, 10)
+color = Color(1, 0, 0, 1)
+
+[node name="Empty_6_1" type="Node2D" parent="."]
+position = Vector2(384, 64)
+
+[node name="@ColorRect@24641" type="ColorRect" parent="Empty_6_1"]
+custom_minimum_size = Vector2(10, 10)
+color = Color(1, 0, 0, 1)
+
+[node name="Empty_6_2" type="Node2D" parent="."]
+position = Vector2(384, 128)
+
+[node name="@ColorRect@24642" type="ColorRect" parent="Empty_6_2"]
+custom_minimum_size = Vector2(10, 10)
+color = Color(1, 0, 0, 1)
+
+[node name="Empty_6_3" type="Node2D" parent="."]
+position = Vector2(384, 192)
+
+[node name="@ColorRect@24643" type="ColorRect" parent="Empty_6_3"]
+custom_minimum_size = Vector2(10, 10)
+color = Color(1, 0, 0, 1)
+
+[node name="Empty_6_4" type="Node2D" parent="."]
+position = Vector2(384, 256)
+
+[node name="@ColorRect@24644" type="ColorRect" parent="Empty_6_4"]
+custom_minimum_size = Vector2(10, 10)
+color = Color(1, 0, 0, 1)
+
+[node name="Empty_6_5" type="Node2D" parent="."]
+position = Vector2(384, 320)
+
+[node name="@ColorRect@24645" type="ColorRect" parent="Empty_6_5"]
+custom_minimum_size = Vector2(10, 10)
+color = Color(1, 0, 0, 1)
+
+[node name="Empty_6_6" type="Node2D" parent="."]
+position = Vector2(384, 384)
+
+[node name="@ColorRect@24646" type="ColorRect" parent="Empty_6_6"]
+custom_minimum_size = Vector2(10, 10)
+color = Color(1, 0, 0, 1)
+
+[node name="Empty_6_7" type="Node2D" parent="."]
+position = Vector2(384, 448)
+
+[node name="@ColorRect@24647" type="ColorRect" parent="Empty_6_7"]
+custom_minimum_size = Vector2(10, 10)
+color = Color(1, 0, 0, 1)
+
+[node name="Empty_7_0" type="Node2D" parent="."]
+position = Vector2(448, 0)
+
+[node name="@ColorRect@24648" type="ColorRect" parent="Empty_7_0"]
+custom_minimum_size = Vector2(10, 10)
+color = Color(1, 0, 0, 1)
+
+[node name="Empty_7_1" type="Node2D" parent="."]
+position = Vector2(448, 64)
+
+[node name="@ColorRect@24649" type="ColorRect" parent="Empty_7_1"]
+custom_minimum_size = Vector2(10, 10)
+color = Color(1, 0, 0, 1)
+
+[node name="Empty_7_2" type="Node2D" parent="."]
+position = Vector2(448, 128)
+
+[node name="@ColorRect@24650" type="ColorRect" parent="Empty_7_2"]
+custom_minimum_size = Vector2(10, 10)
+color = Color(1, 0, 0, 1)
+
+[node name="Empty_7_3" type="Node2D" parent="."]
+position = Vector2(448, 192)
+
+[node name="@ColorRect@24651" type="ColorRect" parent="Empty_7_3"]
+custom_minimum_size = Vector2(10, 10)
+color = Color(1, 0, 0, 1)
+
+[node name="Empty_7_4" type="Node2D" parent="."]
+position = Vector2(448, 256)
+
+[node name="@ColorRect@24652" type="ColorRect" parent="Empty_7_4"]
+custom_minimum_size = Vector2(10, 10)
+color = Color(1, 0, 0, 1)
+
+[node name="Empty_7_5" type="Node2D" parent="."]
+position = Vector2(448, 320)
+
+[node name="@ColorRect@24653" type="ColorRect" parent="Empty_7_5"]
+custom_minimum_size = Vector2(10, 10)
+color = Color(1, 0, 0, 1)
+
+[node name="Empty_7_6" type="Node2D" parent="."]
+position = Vector2(448, 384)
+
+[node name="@ColorRect@24654" type="ColorRect" parent="Empty_7_6"]
+custom_minimum_size = Vector2(10, 10)
+color = Color(1, 0, 0, 1)
+
+[node name="Empty_7_7" type="Node2D" parent="."]
+position = Vector2(448, 448)
+
+[node name="@ColorRect@24655" type="ColorRect" parent="Empty_7_7"]
+custom_minimum_size = Vector2(10, 10)
+color = Color(1, 0, 0, 1)
+
+[node name="Empty_8_0" type="Node2D" parent="."]
+position = Vector2(512, 0)
+
+[node name="@ColorRect@24656" type="ColorRect" parent="Empty_8_0"]
+custom_minimum_size = Vector2(10, 10)
+color = Color(1, 0, 0, 1)
+
+[node name="Empty_8_1" type="Node2D" parent="."]
+position = Vector2(512, 64)
+
+[node name="@ColorRect@24657" type="ColorRect" parent="Empty_8_1"]
+custom_minimum_size = Vector2(10, 10)
+color = Color(1, 0, 0, 1)
+
+[node name="Empty_8_2" type="Node2D" parent="."]
+position = Vector2(512, 128)
+
+[node name="@ColorRect@24658" type="ColorRect" parent="Empty_8_2"]
+custom_minimum_size = Vector2(10, 10)
+color = Color(1, 0, 0, 1)
+
+[node name="Empty_8_3" type="Node2D" parent="."]
+position = Vector2(512, 192)
+
+[node name="@ColorRect@24659" type="ColorRect" parent="Empty_8_3"]
+custom_minimum_size = Vector2(10, 10)
+color = Color(1, 0, 0, 1)
+
+[node name="Empty_8_4" type="Node2D" parent="."]
+position = Vector2(512, 256)
+
+[node name="@ColorRect@24660" type="ColorRect" parent="Empty_8_4"]
+custom_minimum_size = Vector2(10, 10)
+color = Color(1, 0, 0, 1)
+
+[node name="Empty_8_5" type="Node2D" parent="."]
+position = Vector2(512, 320)
+
+[node name="@ColorRect@24661" type="ColorRect" parent="Empty_8_5"]
+custom_minimum_size = Vector2(10, 10)
+color = Color(1, 0, 0, 1)
+
+[node name="Empty_8_6" type="Node2D" parent="."]
+position = Vector2(512, 384)
+
+[node name="@ColorRect@24662" type="ColorRect" parent="Empty_8_6"]
+custom_minimum_size = Vector2(10, 10)
+color = Color(1, 0, 0, 1)
+
+[node name="Empty_8_7" type="Node2D" parent="."]
+position = Vector2(512, 448)
+
+[node name="@ColorRect@24663" type="ColorRect" parent="Empty_8_7"]
+custom_minimum_size = Vector2(10, 10)
+color = Color(1, 0, 0, 1)
+
+[node name="Empty_9_0" type="Node2D" parent="."]
+position = Vector2(576, 0)
+
+[node name="@ColorRect@24664" type="ColorRect" parent="Empty_9_0"]
+custom_minimum_size = Vector2(10, 10)
+color = Color(1, 0, 0, 1)
+
+[node name="Empty_9_1" type="Node2D" parent="."]
+position = Vector2(576, 64)
+
+[node name="@ColorRect@24665" type="ColorRect" parent="Empty_9_1"]
+custom_minimum_size = Vector2(10, 10)
+color = Color(1, 0, 0, 1)
+
+[node name="Empty_9_2" type="Node2D" parent="."]
+position = Vector2(576, 128)
+
+[node name="@ColorRect@24666" type="ColorRect" parent="Empty_9_2"]
+custom_minimum_size = Vector2(10, 10)
+color = Color(1, 0, 0, 1)
+
+[node name="Empty_9_3" type="Node2D" parent="."]
+position = Vector2(576, 192)
+
+[node name="@ColorRect@24667" type="ColorRect" parent="Empty_9_3"]
+custom_minimum_size = Vector2(10, 10)
+color = Color(1, 0, 0, 1)
+
+[node name="Empty_9_4" type="Node2D" parent="."]
+position = Vector2(576, 256)
+
+[node name="@ColorRect@24668" type="ColorRect" parent="Empty_9_4"]
+custom_minimum_size = Vector2(10, 10)
+color = Color(1, 0, 0, 1)
+
+[node name="Empty_9_5" type="Node2D" parent="."]
+position = Vector2(576, 320)
+
+[node name="@ColorRect@24669" type="ColorRect" parent="Empty_9_5"]
+custom_minimum_size = Vector2(10, 10)
+color = Color(1, 0, 0, 1)
+
+[node name="Empty_9_6" type="Node2D" parent="."]
+position = Vector2(576, 384)
+
+[node name="@ColorRect@24670" type="ColorRect" parent="Empty_9_6"]
+custom_minimum_size = Vector2(10, 10)
+color = Color(1, 0, 0, 1)
+
+[node name="Empty_9_7" type="Node2D" parent="."]
+position = Vector2(576, 448)
+
+[node name="@ColorRect@24671" type="ColorRect" parent="Empty_9_7"]
+custom_minimum_size = Vector2(10, 10)
+color = Color(1, 0, 0, 1)
+
+[node name="Camera2D" type="Camera2D" parent="."]
