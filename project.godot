@@ -15,11 +15,19 @@ run/main_scene="uid://dnqo3n33gy8jy"
 config/features=PackedStringArray("4.4", "GL Compatibility")
 config/icon="res://icon.svg"
 
+[autoload]
+
+Apeloot="*res://addons/apeloot/inventory/Apeloot.gd"
+
 [display]
 
 window/size/mode=3
 window/stretch/mode="canvas_items"
 window/stretch/aspect="expand"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/apeloot/plugin.cfg")
 
 [rendering]
 
