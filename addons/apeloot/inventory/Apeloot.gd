@@ -70,7 +70,6 @@ const items := {
 		"price": 31,
 		"rarity": Rarity.COMMON,
 		"pattern": "3x1",
-		"merge": true,
 	},
 	"pickaxe": {
 		"name": "Pickaxe",
@@ -78,14 +77,12 @@ const items := {
 		"price": 50,
 		"rarity": Rarity.COMMON,
 		"pattern": "T",
-		"merge": true,
 	},
 	"ketchup": {
 		"name": "Ketchup",
 		"desc": "Goes well with steak.",
 		"price": 10,
 		"rarity": Rarity.UNCOMMON,
-		"stack": 66,
 	},
 	"glasses": {
 		"name": "Glasses?",
@@ -93,6 +90,5 @@ const items := {
 		"price": 31,
 		"rarity": Rarity.COMMON,
 		"pattern": "diagonal",
-		"merge": true,
 	},
 }
