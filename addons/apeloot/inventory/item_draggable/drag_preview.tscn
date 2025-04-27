@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://dbngskflfjw3t"]
 
-[ext_resource type="Script" path="res://addons/apeloot/inventory/item_draggable/drag_preview.gd" id="1_stfhx"]
+[ext_resource type="Script" uid="uid://b82ayxq4lcnet" path="res://addons/apeloot/inventory/item_draggable/drag_preview.gd" id="1_stfhx"]
 
 [node name="DragPreview" type="Control"]
 modulate = Color(1, 1, 1, 0.541176)
