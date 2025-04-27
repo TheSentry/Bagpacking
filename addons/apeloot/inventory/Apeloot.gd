@@ -13,7 +13,7 @@ func _ready():
 
 #Data
 enum Rarity {COMMON, UNCOMMON, RARE, EPIC, LEGENDARY}
-const ITEM_ICONS_PATH := "res://addons/apeloot/image/examples/"
+const ITEM_ICONS_PATH := "res://assets/"
 const INVENTORY_ITEM_SIZE := Vector2(56,56)
 const item_patterns = {
 	"1x1": [[1]],
@@ -39,12 +39,21 @@ const item_patterns = {
 		[1, 1, 1],
 		[0, 0, 0],
 	],
+	"1x3": [
+		[0, 1, 0],
+		[0, 1, 0],
+		[0, 1, 0],
+	],
 	"T": [
 		[1, 1, 1],
 		[0, 1, 0],
 		[0, 1, 0]
 	],
-	"diagonal": [
+	"L_left": [
+		[0, 0, 0],
+		[1, 1, 1],
+		[0, 0, 1]
+	],	"diagonal": [
 		[0,1],
 		[1,0]
 	],
@@ -53,6 +62,11 @@ const item_patterns = {
 		[0,1,0],
 		[1,0,0],
 	],
+	"bag_right": [
+		[0,1,0],
+		[1,1,0],
+		[1,1,0],
+	],	
 }
 
 const rarities := {
@@ -64,31 +78,53 @@ const rarities := {
 }
 
 const items := {
-	"steak": {
-		"name": "Steak",
-		"desc": "Made from happy cows.",
+	"ball": {
+		"name": "Ball",
+		"desc": "It's round",
 		"price": 31,
 		"rarity": Rarity.COMMON,
-		"pattern": "3x1",
+		"pattern": "2x2",
 	},
-	"pickaxe": {
-		"name": "Pickaxe",
-		"desc": "A test item that was drawn in paint.",
-		"price": 50,
-		"rarity": Rarity.COMMON,
-		"pattern": "T",
-	},
-	"ketchup": {
-		"name": "Ketchup",
-		"desc": "Goes well with steak.",
-		"price": 10,
-		"rarity": Rarity.UNCOMMON,
-	},
-	"glasses": {
-		"name": "Glasses?",
-		"desc": "I don't know what this is.",
+	"chatgpt": {
+		"name": "ChatGPT",
+		"desc": "Unfortunately, as a Large Language Model, I can't help you",
 		"price": 31,
 		"rarity": Rarity.COMMON,
-		"pattern": "diagonal",
+		"pattern": "2x2",
+	},
+	"compass": {
+		"name": "Compass",
+		"desc": "The North remembers!",
+		"price": 31,
+		"rarity": Rarity.COMMON,
+		"pattern": "2x2",
+	},
+	"dice": {
+		"name": "Dice",
+		"desc": "Nice!",
+		"price": 31,
+		"rarity": Rarity.COMMON,
+		"pattern": "1x1",
+	},
+	"eye": {
+		"name": "Eye",
+		"desc": "Don't know, if it's real",
+		"price": 31,
+		"rarity": Rarity.COMMON,
+		"pattern": "L_left",
+	},
+	"flashlight": {
+		"name": "Flashlight",
+		"desc": "With an 'a', not the other one ...",
+		"price": 31,
+		"rarity": Rarity.COMMON,
+		"pattern": "1x3",
+	},
+	"merged_trash": {
+		"name": "Golden Garbage Bag",
+		"desc": "It's garbage, but gold!",
+		"price": 31,
+		"rarity": Rarity.COMMON,
+		"pattern": "bag_right",
 	},
 }
